@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: $claro;
+    opacity: 0.6;
+    margin: auto;
+    width: 95%;
+
+    .contenedorprincipal {
+        margin: auto;
+        width: 95%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 2fr 1fr;
+        grid-template-areas:
+            "header header"
+            "main aside"
+            "footer footer"
+    }
+
+    .contenedorprincipalservicios {
+        margin: auto;
+        width: 95%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 2fr 1fr;
+        grid-template-areas:
+            "header header header"
+            "section main aside"
+            "footer footer footer"
+    }
+}

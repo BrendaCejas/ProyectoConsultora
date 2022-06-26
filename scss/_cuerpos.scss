@@ -1,0 +1,51 @@
+.mainpagprincipal {
+    background-color: azure;
+    padding: 1.2rem;
+    grid-area: main;
+    display: flex;
+
+    .produccion {
+        background-position: center;
+    }
+}
+
+.asidepagprincipal {
+    background-color: azure;
+    padding: 1.2rem;
+    grid-area: aside;
+    display: flex;
+
+    .slogan {
+        font-family: 'Playfair Display', serif;
+        font-style: normal;
+        margin: 3.2rem;
+        font-weight: normal;
+        font-size: 2rem;
+        display: flex;
+        flex-basis: auto;
+        flex-direction: column;
+        justify-content: space-evenly;
+        text-align: center;
+    }
+}
+
+.ergonomia {
+   background-color: brown;
+    padding: 1.2rem;
+    grid-area: section;
+    display: flex;
+}
+
+.higieneyseguridad {
+    background-color: blueviolet;
+    padding: 1.2rem;
+    grid-area: main;
+    display: flex;
+}
+
+.normas {
+    background-color: chartreuse;
+    padding: 1.2rem;
+    grid-area: aside;
+    display: flex;
+}

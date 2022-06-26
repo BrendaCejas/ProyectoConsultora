@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background-color: #d9d9d7;
+  opacity: 0.6;
+  margin: auto;
+  width: 95%; }
+  body .contenedorprincipal {
+    margin: auto;
+    width: 95%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 2fr 1fr;
+    grid-template-areas: "header header" "main aside" "footer footer"; }
+  body .contenedorprincipalservicios {
+    margin: auto;
+    width: 95%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 2fr 1fr;
+    grid-template-areas: "header header header" "section main aside" "footer footer footer"; }
+
+header {
+  width: 100%;
+  padding: 1 rem;
+  background-color: #3e4462;
+  grid-area: header;
+  display: flex;
+  flex-wrap: wrap; }
+  header .nombre {
+    padding: 1.2rem;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-weight: normal;
+    font-size: 3.5rem;
+    color: #e6391a9c; }
+  header .que {
+    padding: 2.19rem;
+    flex-direction: row;
+    justify-content: center;
+    font-weight: normal;
+    font-size: 1.5rem;
+    color: #d9d9d7; }
+  header .menu ul {
+    list-style-type: none;
+    display: flex; }
+  header .menu a {
+    text-decoration: none;
+    padding: 50px; }
+    header .menu a:hover {
+      font-weight: bold;
+      text-decoration: underline; }
+
+.mainpagprincipal {
+  background-color: azure;
+  padding: 1.2rem;
+  grid-area: main;
+  display: flex; }
+  .mainpagprincipal .produccion {
+    background-position: center; }
+
+.asidepagprincipal {
+  background-color: azure;
+  padding: 1.2rem;
+  grid-area: aside;
+  display: flex; }
+  .asidepagprincipal .slogan {
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    margin: 3.2rem;
+    font-weight: normal;
+    font-size: 2rem;
+    display: flex;
+    flex-basis: auto;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center; }
+
+.ergonomia {
+  background-color: brown;
+  padding: 1.2rem;
+  grid-area: section;
+  display: flex; }
+
+.higieneyseguridad {
+  background-color: blueviolet;
+  padding: 1.2rem;
+  grid-area: main;
+  display: flex; }
+
+.normas {
+  background-color: chartreuse;
+  padding: 1.2rem;
+  grid-area: aside;
+  display: flex; }
+
+footer {
+  padding: 1 rem;
+  background-color: white;
+  opacity: 0.6;
+  width: 100%;
+  grid-area: footer;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly; }
