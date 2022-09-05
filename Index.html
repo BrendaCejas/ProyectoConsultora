@@ -2,43 +2,74 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Square+Peg&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="./css/main.css">
-    <title>Pagina Principal Proyectar Consultora</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link rel="shortcut icon" href="./scss/Imagenes/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Cardo:ital@1&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Cardo:ital,wght@0,700;1,400&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bad+Script&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./css/main.css">
+  <title>Pagina Principal Proyectar Consultora</title>
 </head>
 
-<body>
-    <div class="contenedorprincipal">
-        <header class="headerpagprincipal">
-            <h1 class="nombre">PROYECTAR</h1>
-            <h2 class="que"><em>Consultoría de Gestión Industrial.</em></h2>
-            <nav class="menu">
-                <ul>
-                    <li class="Inicio"><a href="">Inicio</a></li>
-                    <li class="quienes"><a href="quienes.html">Quienes somos</a></li>
-                    <li class="servicios"><a href="">Nuestros Servicios</a></li>
-                    <li class="contactanos"><a href="contactanos.html">Contactanos</a></li>
-                </ul>
-            </nav>
-        </header>
-        <hr>
-        <aside class="asidepagprincipal">
-            <p class="slogan">Proyectos con Implementación de Alto Impacto para la Evolución de tu Empresa.</p>
-        </aside>
-        <main class="mainpagprincipal">
-            <img class="produccion" src="./scss/Imagenes/produccioninteligente.jpg" alt="produccionefectiva">
-        </main>
-        <footer class="footerpagprincipal">
-            <img src="./scss/Imagenes/lface.png" alt="nuestrofacebook">
-            <img src="./scss/Imagenes/linst.png" alt="nuestroinstagram">
-        </footer>
+<body class="pagprincipal">
+  <header class="headerpagprincipal">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+          <h1 class="brand">PROYECTAR</h1>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./index.html">INICIO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./nuestrosservicios.html">SERVICIOS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./quienes.html">QUIENES SOMOS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contactanos.html">CONTACTANOS</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </div>
+  </header>
+  <main class="mainpagprincipal">
+    <h2>Consultoría de Gestión Industrial</h2>
+    <p class="slogan">Proyectos con Implementación de Alto Impacto para la <span class="uno">Evolución de tu
+        Empresa.</span></p>
+  </main>
+  <footer class="footerpagprincipal">
+    <div class="redes">
+      <p>Visitá Nuestras Redes</p>
+    </div>
+    <div class="logoinst">
+    </div>
+    <div class="logoface">
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>

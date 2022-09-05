@@ -1,45 +1,81 @@
 header {
-    width: 100%;
-    padding: 1 rem;
-    background-color: $azulclaro;
-    grid-area: header;
+    width: 100vw;
+    height: 150px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 15px;
     display: flex;
-    flex-wrap: wrap;
+    opacity: 1;
 
-
-    .nombre {
-        padding: 1.2rem;
-        flex-direction: row;
-        justify-content: flex-start;
-        font-weight: normal;
-        font-size: 3.5rem;
-        color: $naranja;
+    .nav {
+        @media (min-width:767px) {
+            width: 800vw;
+        }
     }
 
-    .que {
-        padding: 2.19rem;
-        flex-direction: row;
-        justify-content: center;
-        font-weight: normal;
-        font-size: 1.5rem;
+    .brand {
+        font-size: 52px;
         color: $claro;
+        font-family: 'Bad Script', cursive;
+
+        @media (max-width:767px) {
+            font-size: 1em;
+        }
+    }
+
+    .brand1 {
+        font-size: 52px;
+        color: $claro;
+        font-family: 'Bad Script', cursive;
+
+        @media (max-width:767px) {
+            font-size: 1em;
+        }
+    }
+
+    .brand2 {
+        font-size: 52px;
+        color: $azuloscuro;
+        font-family: 'Bad Script', cursive;
+
+        @media (max-width:767px) {
+            font-size: 1em;
+        }
+    }
+
+    .ul {
+        list-style-type: none;
 
     }
 
-    .menu {
-        ul {
-            list-style-type: none;
-            display: flex;
-        }
+    a.nav-link {
+        color: white;
+        font-weight: lighter;
+    }
 
-        a {
-            text-decoration: none;
-            padding: 50px;
+    .navbar-nav .nav-link.active {
+        color: aqua;
+        font-weight: bold;
+    }
 
-            &:hover {
-                font-weight: bold;
-                text-decoration: underline;
-            }
+
+    a {
+        text-decoration: none;
+
+
+        &:hover {
+            font-weight: bold;
+            text-decoration: solid;
+            border-radius: 5px;
+            color: $naranja;
         }
     }
+
+    @media (max-width:767px) {
+        flex-wrap: wrap;
+        font-size: 1em;
+        padding: 4px;
+    }
+
 }

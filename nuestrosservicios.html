@@ -9,39 +9,100 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Square+Peg&display=swap"
         rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Cardo:ital@1&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Cardo:ital,wght@0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bad+Script&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="shortcut icon" href="./scss/Imagenes/favicon-32x32.png">
     <title>Servicios Proyectar Consultora</title>
 </head>
 
 <body>
-    <div class="contenedorprincipalservicios">
-        <header class="headerpagprincipal">
-            <h1 class="nombre">PROYECTAR</h1>
-            <h2 class="que"><em>Consultoría de Gestión Industrial.</em></h2>
-            <nav class="menu">
-                <ul>
-                    <li class="Inicio"><a href="">Inicio</a></li>
-                    <li class="quienes"><a href="quienes.html">Quienes somos</a></li>
-                    <li class="servicios"><a href="">Nuestros Servicios</a></li>
-                    <li class="contactanos"><a href="contactanos.html">Contactanos</a></li>
-                </ul>
+    <header class="headerpagprincipal">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <h1 class="brand1">PROYECTAR</h1>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav mx-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="./Index.html">INICIO</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link active" aria-current="page"
+                                    href="./nuestrosservicios.html">SERVICIOS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./quienes.html">QUIENES SOMOS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./contactanos.html">CONTACTANOS</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </nav>
-        </header>
-        <hr>
-        <section class="ergonomia">
-            <img src="./scss/Imagenes/ergo.jpg" alt="ergonomia">
-        </section>
-        <main class="higieneyseguridad">
-            <img src="./scss/Imagenes/hys.jpg" alt="higieneyseguridad">
-        </main>
-        <aside class="normas">
-            <img src="./scss/Imagenes/normas.jpg" alt="implementaciondenormas">
-        </aside>
-        <footer class="footerpagprincipal">
-            <img src="./scss/Imagenes/lface.png" alt="nuestrofacebook">
-            <img src="./scss/Imagenes/linst.png" alt="nuestroinstagram">
-        </footer>
+        </div>
+    </header>
+    <div class="nuestrosservicios">
+
+        <div class="card">
+            <img src="./css/Imagenes/ergo.jpg" alt="Ergonomía">
+            <h4>Ergonomía</h4>
+            <p>
+                Implementación de Programas de Ergonomía Integrados en el trabajo dentro de las Empresas.
+                Servicios para Home Office.
+            </p>
+        </div>
+
+
+        <div class="card">
+            <img src="./css/Imagenes/hys.jpg" alt="higiene y seguridad laboral">
+            <h4>Higiene y Seguridad Laboral</h4>
+            <p>
+                Evaluación de riesgos por puestos de trabajo.
+                Vibraciones.
+                Estrés por Carga térmica.
+                Iluminación.
+                Ruido.
+                Medición de esfuerzos manuales en empuje/tracción de carros con dinamómetro digital.
+                Control de equipos e instalaciones contra incendio.
+            </p>
+        </div>
+        <div class="card">
+            <img src="./css/Imagenes/normas.jpg" alt="Normativas">
+            <h4>
+                Implementación de Normas
+            </h4>
+            <p>
+                Implementación de Normas sometidas a certificación.
+                Optimización de Procesos Productivos.
+            </p>
+        </div>
+
+
     </div>
+    <footer class="footerpagprincipal">
+        <div class="instagram"></div>
+        <div class="facebook"></div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
