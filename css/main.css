@@ -53,7 +53,8 @@ header {
     list-style-type: none; }
   header a.nav-link {
     color: white;
-    font-weight: lighter; }
+    font-weight: lighter;
+    font-size: 12px; }
   header .navbar-nav .nav-link.active {
     color: aqua;
     font-weight: bold; }
@@ -151,7 +152,7 @@ header {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin: 2rem;
+  margin: auto;
   background-color: #10415e;
   padding: 1.2rem; }
   .nuestrosservicios .card {
@@ -192,7 +193,7 @@ header {
   padding: 30px;
   height: auto; }
 
-.mv {
+.mainmv {
   background-image: url(../css/Imagenes/mv.jpg);
   background-size: cover;
   background-repeat: no-repeat;
